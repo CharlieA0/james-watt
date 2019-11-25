@@ -4,16 +4,20 @@
 
 class MapData {
   public:
-    static constexpr float SPEED_STEP = 315.0;           // RPM
-    static constexpr float STARTING_SPEED = 315.0;
 
-    static constexpr float TORQUE_STEP = 13.5;          // Nm
-    static constexpr float STARTING_TORQUE = 13.5;
+    static constexpr int TORQUE_POINTS = 40;
+    static constexpr float TORQUE_STEP = 6.75;     // Nm
+    static constexpr float STARTING_TORQUE = 6.75;
 
-    static constexpr int TORQUE_POINTS = 19;
-    static constexpr int SPEED_POINTS = 19;
+    static constexpr int SPEED_POINTS  = 40;
+    static constexpr float SPEED_STEP = 12.5;     // RPM;
+    static constexpr float STARTING_SPEED = 12.5;
+
+    static constexpr float MAX_EFF = 2.0;     // RPM;
+    static constexpr float MIN_EFF = 0.45;
 
     static float EFF_GRID[TORQUE_POINTS][SPEED_POINTS];
+
 };
 
 #endif // MAPDATA_HXX
