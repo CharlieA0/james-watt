@@ -1,4 +1,3 @@
-
 #include <cmath>
 #include <iostream>
 #include <effmap.hpp>
@@ -138,5 +137,4 @@ extern "C" {
 //  return onGrid;
 //
 //}
-
 

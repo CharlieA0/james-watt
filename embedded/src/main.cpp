@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <mapdata.hpp>
 #include <effmap.hpp>

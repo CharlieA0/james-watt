@@ -7,3 +7,4 @@ file(GLOB SOURCES "src/*.cpp")
 
 add_library (effmap MODULE ${SOURCES})
 add_executable (main ${SOURCES})
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
